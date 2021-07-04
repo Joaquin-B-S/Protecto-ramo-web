@@ -19,7 +19,7 @@
     <link rel="icon" type="image/png" sizes="16x16" href="img/favicons/favicon-16x16.png">
     <link rel="manifest" href="img/favicons/manifest.json">
     <meta name="msapplication-TileColor" content="#ffffff">
-    <meta name="msapplication-TileImage" content="/ms-icon-144x144.png">
+    <meta name="msapplication-TileImage" content="img/favicons/ms-icon-144x144.png">
     <meta name="theme-color" content="#ffffff">
     <link rel="stylesheet" href="css/normalize.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -41,14 +41,14 @@
     <header class="header">
         <div class="contenedor">
             <div class="barra">
-                <a href="index.html" class="logo">
+                <a href="index.php" class="logo">
                     <h1 class="logo__nombre no-margin centrar-texto">Safe<span class="logo__bold">Truck</span></h1>
                 </a>
                 <nav class="navegacion">
-                    <a href="src/nosotros.html" class="navegacion__enlace">Nosotros</a>
-                    <a href="src/contacto.html" class="navegacion__enlace">Contacto</a>
-                    <a href="src/servicio.html" class="navegacion__enlace">Servicio</a>
-                    <a href="src/login.html" class="navegacion__enlace">Login</a>
+                    <a href="src/nosotros.php" class="navegacion__enlace">Nosotros</a>
+                    <a href="src/contacto.php" class="navegacion__enlace">Contacto</a>
+                    <a href="src/servicio.php" class="navegacion__enlace">Servicio</a>
+                    <a href="src/login.php" class="navegacion__enlace">Login</a>
                 </nav>
             </div>
         </div>
@@ -269,24 +269,7 @@
             </div>
         </div>
     </main>
-
-    <footer class="footer">
-        <div class="contenedor">
-            <div class="content-foo">
-                <h4>Teléfono</h4>
-                <p>+56 978069807</p>
-            </div>
-            <div class="content-foo">
-                <h4>Email</h4>
-                <p>safetruck@gmail.com</p>
-            </div>
-            <div class="content-foo">
-                <h4>Ubicación</h4>
-                <p>Colón, Talcahuano, Bío Bío</p>
-            </div>
-            <h2 class="titulo-final">&copy; SafeTruck</h2>
-        </div>
-    </footer>
+    <?php include('src/footer.php') ?>
     <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
     <script src="scripts/js/preloader.js"></script>
 </body>

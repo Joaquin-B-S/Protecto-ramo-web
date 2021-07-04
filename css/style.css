@@ -284,3 +284,42 @@ h4 {
     margin: 2rem 0 0;
     color: #9e9797;
 }
+
+.header-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 0rem;
+}
+
+.header__logo {
+    width: 10rem;
+}
+
+.lista__item {
+    display: inline-block;
+    padding: 0rem 2rem;
+}
+
+.lista__item a, .header__btn {
+    text-transform: uppercase;
+    font-weight: 700;
+    color: #4a3866;
+    transition: all 0.3s;
+}
+
+.lista__item a:hover {
+    color: #ff2753;
+}
+
+.header__btn:hover {
+    background-color: #4a3866;
+    color: white;
+}
+
+.header__btn {
+    padding: 1rem 2.5rem;
+    background-color: #ff2753;
+    border-radius: 5rem;
+    color: white;
+}
