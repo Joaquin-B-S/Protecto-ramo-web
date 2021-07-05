@@ -1,6 +1,6 @@
-<?php include('head.php') ?>
+<?php include('includes/head.php') ?>
 <body>
-    <?php include('header.php') ?>
+    <?php include('includes/header.php') ?>
     <main class="contenedor">
         <form action="" class="formulario">
             <div class="form">
@@ -31,6 +31,6 @@
             </div>
         </form>
     </main>
-    <?php include('footer.php') ?>
+    <?php include('includes/footer.php') ?>
 </body>
 </html>

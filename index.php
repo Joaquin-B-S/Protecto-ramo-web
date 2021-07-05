@@ -45,9 +45,9 @@
                     <h1 class="logo__nombre no-margin centrar-texto">Safe<span class="logo__bold">Truck</span></h1>
                 </a>
                 <nav class="navegacion">
-                    <a href="src/nosotros.php" class="navegacion__enlace">Nosotros</a>
                     <a href="src/servicio.php" class="navegacion__enlace">Servicio</a>
                     <a href="src/contacto.php" class="navegacion__enlace">Contacto</a>
+                    <a href="src/nosotros.php" class="navegacion__enlace">Nosotros</a>
                     <a href="src/login.php" class="navegacion__enlace">Login</a>
                 </nav>
             </div>
@@ -269,7 +269,7 @@
             </div>
         </div>
     </main>
-    <?php include('src/footer.php') ?>
+    <?php include('src/includes/footer.php') ?>
     <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
     <script src="scripts/js/preloader.js"></script>
 </body>
