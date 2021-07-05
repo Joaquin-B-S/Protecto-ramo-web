@@ -46,8 +46,8 @@
                 </a>
                 <nav class="navegacion">
                     <a href="src/nosotros.php" class="navegacion__enlace">Nosotros</a>
-                    <a href="src/contacto.php" class="navegacion__enlace">Contacto</a>
                     <a href="src/servicio.php" class="navegacion__enlace">Servicio</a>
+                    <a href="src/contacto.php" class="navegacion__enlace">Contacto</a>
                     <a href="src/login.php" class="navegacion__enlace">Login</a>
                 </nav>
             </div>

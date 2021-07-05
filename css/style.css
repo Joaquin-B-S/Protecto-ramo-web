@@ -455,6 +455,41 @@ h4 {
     }
 }
 
+.banner2 {
+    height: 50rem;
+    background: #FC466B;
+    background: -webkit-linear-gradient(to left, hsla(230, 96%, 62%, 0.644), hsla(348, 97%, 63%, 0.678)), url(../img/banner-camiones-in.jpg);
+    background: linear-gradient(to left, hsla(230, 96%, 62%, 0.644), hsla(348, 97%, 63%, 0.678)), url(../img/banner-camiones-in.jpg); 
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+.banner2__texto {
+    text-align: center;
+    color: white;
+}
+
+.banner2__wave {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+}
+
+.servicio-texto {
+    margin: 0rem 0rem 2rem 0rem;
+}
+
+.servicio__texto-bold {
+    font-weight: 700;
+    font-size: 2.5rem;
+}
+
 
 
 
