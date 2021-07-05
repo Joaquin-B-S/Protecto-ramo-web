@@ -285,11 +285,16 @@ h4 {
     color: #9e9797;
 }
 
+.sombra {
+    box-shadow: 0 4px 2px -2px gray;
+}
+
 .header-header {
     display: flex;
     justify-content: space-between;
     align-items: center;
     padding: 1rem 0rem;
+    margin-bottom: 1rem;
 }
 
 .header__logo {
@@ -323,3 +328,135 @@ h4 {
     border-radius: 5rem;
     color: white;
 }
+
+.formulario {
+    padding: 1rem 0;
+    box-shadow: 0 0 0.6rem 0 rgba(0, 0, 0, 0.5);
+    margin: 2rem;
+    border-radius: 1rem;
+}
+
+.form {
+    width: 100%;
+    margin: auto;
+}
+
+.formulario__titulo {
+    text-align: center;
+}
+
+.form .grupo {
+    position: relative;
+    margin: 4.5rem;
+}
+
+.formulario__input {
+    background: none;
+    color: #c6c6c6;
+    font-size: 1.8rem;
+    padding: 1rem 1rem 1rem 0.5rem;
+    display: block;
+    width: 100%;
+    border: none;
+    border-bottom: 1px solid;
+}
+
+.formulario__input:focus {
+    outline: none;
+    color: rgb(94, 93, 93);
+} 
+
+.formulario__label {
+    font-size: 2rem;
+    position: absolute;
+    left: 0.5rem;
+    top: 1rem;
+    transition: 0.5s ease all;
+    pointer-events: none;
+    color: #49454567;
+}
+
+.formulario__input:focus~.formulario__label,
+.formulario__input:valid~.formulario__label {
+    top: -2rem;
+    color: #2196f3;
+}
+
+.formulario__barra {
+    position: relative;
+    display: block;
+    width: 100%;
+}
+
+.formulario__barra::before {
+    content: "";
+    height: 0.2rem;
+    width: 0%;
+    position: absolute;
+    bottom: 0;
+    background: linear-gradient(to right, #B06AB3, #4568DC);
+    transition: 0.3s ease width;
+    left: 0;
+}
+
+.formulario__input:focus~.formulario__barra::before {
+    width: 100%;
+}
+
+.formulario__label-text {
+    color: #49454567;
+    font-size: 2rem;
+    display: block;
+    position: absolute;
+    top: 0;
+    transition: 0.5s ease all;
+    pointer-events: none;
+    left: 0.5rem;
+}
+
+.formulario__text {
+    color: #c6c6c6;
+    width: 100%;
+    border: 1px solid;
+    min-height: 20rem;
+    max-height: 20rem;
+    min-width: 100%;
+    max-width: 100%;
+}
+
+.formulario__text:focus {
+    outline: none;
+    color: rgb(94, 93, 93);
+} 
+
+.formulario__text:focus~.formulario__label-text,
+.formulario__text:valid~.formulario__label-text {
+    color: #2196f3;
+    top: -4rem;
+}
+
+.formulario__btn {
+    background: #4568DC;
+    background: -webkit-linear-gradient(to right, #B06AB3, #4568DC);
+    background: linear-gradient(to right, #B06AB3, #4568DC);
+    font-size: 2rem;
+    color: white;
+    border: none;
+    display: block;
+    width: 80%;
+    margin: 1rem auto;
+    height: 4rem;
+    cursor: pointer;
+}
+
+@media screen and (max-width: 768px) {
+    .formulario {
+        width: 80%;
+    }
+}
+
+
+
+
+
+
