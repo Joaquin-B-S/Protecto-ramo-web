@@ -1,6 +1,6 @@
-<?php include('includes/head.php') ?>
+<?php include('../includes/head.php') ?>
 <body>
-    <?php include('includes/header.php') ?>
+    <?php include('../includes/header.php') ?>
     <div class="banner2">
         <div class="banner2__texto">
             <h1 class="no-margin">¿Qué es la administración de flotas?</h1>
@@ -98,6 +98,6 @@
             </div>
         </div>
     </main>
-    <?php include('includes/footer.php') ?>
+    <?php include('../includes/footer.php') ?>
 </body>
 </html>

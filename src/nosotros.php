@@ -1,6 +1,6 @@
-<?php include('includes/head.php') ?>
+<?php include('../includes/head.php') ?>
 <body>
-    <?php include('includes/header.php') ?>
+    <?php include('../includes/header.php') ?>
     <main class="contenedor">
         <h1 class="no-margin centrar-texto">Sobre Nosotros</h1>
         <div class="sobre-nosotros">
@@ -13,6 +13,6 @@
             </div>
         </div>
     </main>
-    <?php include('includes/footer.php') ?>
+    <?php include('../includes/footer.php') ?>
 </body>
 </html>

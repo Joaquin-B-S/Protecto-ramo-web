@@ -1,8 +1,8 @@
-<?php include('includes/head.php') ?>
+<?php include('../includes/head.php') ?>
 <body>
-    <?php include('includes/header.php') ?>
+    <?php include('../includes/header.php') ?>
     <main class="contenedor">
-        <form action="" class="formulario">
+        <form class="formulario">
             <div class="form">
                 <h1 class="formulario__titulo">Contáctanos</h1>
                 <div class="grupo">
@@ -31,6 +31,6 @@
             </div>
         </form>
     </main>
-    <?php include('includes/footer.php') ?>
+    <?php include('../includes/footer.php') ?>
 </body>
 </html>
