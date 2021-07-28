@@ -8,11 +8,11 @@
 
 .form-container {
     width: 50rem;
-    height: 40rem;
+    height: 45rem;
     padding: 4rem;
     box-shadow: 0 0 0.6rem 0 rgba(0, 0, 0, 0.5);
     text-align: center;
-    margin-bottom: 1rem;
+    margin: 25rem 0;
 }
 
 .form-titulo {
@@ -52,4 +52,22 @@
     background: none;
     color: black;
     border: 2px solid #4568DC;
+}
+
+.btnregistro {
+    border: 2px solid #4568DC;
+    background: none;
+    margin: 2rem auto;
+    display: block;
+    padding: 0.7rem 1rem;
+    color: black;
+    border-radius: 2.4rem;
+    width: 20rem;
+    transition: 0.25s;
+}
+
+.btnregistro:hover {
+    background: #FC466B;
+    color: white;
+    border: 0;
 }
